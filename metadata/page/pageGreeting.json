@@ -1,0 +1,33 @@
+{
+  "_id": "pageGreeting",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "pageGreeting--greeting",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "pageGreeting--greeting--hello",
+          "_type": "radio",
+          "label": "Hello",
+          "value": "Hello"
+        },
+        {
+          "_id": "pageGreeting--greeting--hi",
+          "_type": "radio",
+          "label": "Hi",
+          "value": "Hi"
+        },
+        {
+          "_id": "pageGreeting--greeting--hurry",
+          "_type": "radio",
+          "label": "Just give me a basic Hello World",
+          "value": "helloworld"
+        }
+      ],
+      "legend": "What greeting would you like to use?",
+      "name": "greeting"
+    }
+  ],
+  "url": "/greeting"
+}
